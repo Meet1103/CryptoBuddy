@@ -1,0 +1,22 @@
+@import url('https://fonts.googleapis.com/css2?family=Road+Rage&&family=Quicksand&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+::-webkit-scrollbar {
+	width: 0.7vw;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+	background: #c9c9c9;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+	background: #ff003f;
+	border-radius: 15px;
+	box-shadow: inset 2px 2px 2px hsl(0deg 0% 100% / 25%),
+		inset -2px -2px 2px rgb(0 0 0 / 25%);
+}
